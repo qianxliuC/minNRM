@@ -30,11 +30,11 @@ estimated_left = -3
 estimated_right = 5
 
 if __name__ == "__main__":
-    for inital_value in range(estimated_left, estimated_right):
-        unlimited, x, y, dy = newton(inital_value)
+    for initial_value in range(estimated_left, estimated_right):
+        unlimited, x, y, dy = newton(initial_value)
         if not unlimited:
             print(f"final distance calculated values are x={x}, y={y}, dy={dy}")
             break
         else:
-            print(f"wrong selection of initial value x={inital_value}")
+            print(f"wrong selection of initial value x={initial_value}")
 
