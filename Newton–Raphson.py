@@ -36,5 +36,5 @@ if __name__ == "__main__":
             print(f"final distance calculated values are x={x}, y={y}, dy={dy}")
             break
         else:
-            print(f"wrong selection of inital value x={inital_value}")
+            print(f"wrong selection of initial value x={inital_value}")
 
